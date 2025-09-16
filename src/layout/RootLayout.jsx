@@ -1,0 +1,14 @@
+import React from 'react';
+import Navbar from "../components/Navbar.jsx";
+import {Outlet } from "react-router-dom";
+
+function RootLayout() {
+    return (
+        <div className="App">
+        <Navbar />
+        <Outlet />
+        </div>
+    );
+}
+
+export default RootLayout;
